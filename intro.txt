@@ -1,0 +1,9 @@
+accounts -> CustomUser in accounts AbstractUser + age
+	    SignUp page is handled here
+
+articles -> comments CRUD work only in admin
+	    models.CASCADE?	= CASCADE
+		It is used in conjunction with ON DELETE or ON UPDATE. 
+		It means that the child data is either deleted or updated 
+		when the parent data is deleted or updated
+	    LoginRequiredMixin, UserPassesTestMixin
